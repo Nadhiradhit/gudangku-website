@@ -1,0 +1,40 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+body{
+    background-color: #f1f1f1 !important;
+}
+
+.form{
+    background-color: white !important;
+    width: 30rem !important;
+}
+
+.btn{
+    width: 100% !important;
+}
+
+.alert-warning{
+    transition: .3s;
+    animation: buttons .3s linear;
+}
+
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
